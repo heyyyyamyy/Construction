@@ -251,16 +251,15 @@ body {
   }
   
   .navbar-brand img {
-    width: 125px;
+    width: 200px;
+   
   }
   
   .custom_nav-container {
     padding: 0;
   }
   
-  .custom_nav-container .navbar-nav {
-    margin: auto;
-  }
+  
   
   .custom_nav-container .navbar-nav .nav-item .nav-link {
     padding: 5px 25px;
