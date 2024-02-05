@@ -1272,3 +1272,48 @@ body {
     background-color: lightgray;
   }
   /*# sourceMappingURL=style.css.map */
+
+  #client-logo img{
+    height: 275px;
+    width: 350px;
+    padding: 25px;
+    border-radius: 30px;
+  }
+
+  .london{
+    height: 400px;
+
+  }
+
+  .london2{
+    height: 425px;
+  }
+
+  #about-us-bg{
+    display: flex;
+    
+    align-items: center;
+    height: 100vh;
+background: url(https://hithium.com/fileadmin/ns_theme_hithium/images/Service/AdobeStock_643068616-2000px.jpg);
+  }
+
+  #text-about{
+    background-color: #00000082;
+    
+    
+  }
+
+  #orange{
+    color: #f07b26;
+  }
+
+  #about-h1{
+    padding-top: 100px;
+  }
+
+  #img-about img{
+    border-radius: 25px;
+  }
+
+
+  
