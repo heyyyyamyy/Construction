@@ -45,6 +45,15 @@
     #clients {
       font-family: 'Oswald', sans-serif;
     }
+
+    #counter-font {
+            font-size: 40px;
+            color: white;
+        }
+
+    #counter-bg {
+            background: url(client-bg.jpg);
+        }
   </style>
 
 </head>
@@ -366,10 +375,38 @@
 
   <!-- end service section -->
 
+  
+  <section class="container-fluid py-5" id="counter-bg">
+    <div class="container">
+        <div class="row text-center">
+
+            <div class="col-12 col-xl-4 py-2">
+                <h3 class="text-white pt-5">Delivered Projects</h3>
+                <span class="count-num " id="counter-font">4420</span><span id="counter-font">+</span>
+
+
+            </div>
+
+            <div class="col-12 col-xl-4 py-2">
+
+                <h3 class="text-white pt-5">On Going Projects</h3>
+                <span class="count-num" id="counter-font">1660</span><span id="counter-font">+</span>
+            </div>
+
+            <div class="col-12 col-xl-4 py-2">
+
+                <h3 class="text-white pt-5">Upcoming Projects
+                </h3>
+                <span class="count-num" id="counter-font">860</span><span id="counter-font">+</span>
+            </div>
+        </div>
+    </div>
+</section>
+
 
   <!-- about section -->
 
-  <section class="about_section">
+  <section class="about_section py-5">
     <div class="container  ">
       <div class="row">
         <div class="col-md-6">
@@ -791,6 +828,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+
   <script>
     $('.owl-carousel').owlCarousel({
       rtl: true,
