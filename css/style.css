@@ -1343,7 +1343,8 @@ a{
 }
 
 #address-box{
-  border: 2px solid rgba(0, 0, 0, 0.379);
+  border: 2px solid white;
+  color: white;
   border-radius: 15px;
   box-shadow: 2px 2px 2px 1px;
   margin-top: 15px;
