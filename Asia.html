@@ -46,6 +46,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="/tab logo.png" type="image/x-icon">
+
 </head>
 
 <body class="sub_page">
@@ -117,13 +119,12 @@
 
 
                 <div class="col-12 col-xl-4 ">
-                  <h5><i class="fa-solid fa-location-dot"></i> Location: </h5>
+                 
                   
-                    <h5>  China-628 CTF Finance Centre Blvd Middle, Tianhe
+                    <span id="country"> <b> China:</b> </span>628 CTF Finance Centre Blvd Middle, Tianhe
                         District, Guangzhou, Guangdong Province, China, 517627
                     </h5>
-                    <h5 class="pt-2"> <i class="fa-solid fa-phone"></i> Phone: +86 27 8559 6188
-                    </h5>
+                    <p class="pt-2"><i class="fa-solid fa-phone"></i> Phone: +86 27 8559 6188</p>
 
                 </div>
 
@@ -141,15 +142,14 @@
 
 
                 <div class="col-12 col-xl-4">
-                  <h5><i class="fa-solid fa-location-dot"></i> Location: </h5>
+                  
 
-                    <h5>
-                       Indonasia- Wework Revenue Tower 26th, Scbd, Jl. Jenderal
+                  
+                     <span id="country"><b>Indonasia: </b></span>   Wework Revenue Tower 26th, Scbd, Jl. Jenderal
                         Sudirman No.52-53, RT.5/RW.3, Senayan, Jakarta, South Jakarta City, Jakarta 12197, Indonesia
-                    </h5>
+                   
 
-                    <h5 class="pt-2"> <i class="fa-solid fa-phone"></i> Phone: +62 21 37721177
-                    </h5>
+                    <p class="pt-2"><i class="fa-solid fa-phone"></i> Phone: +62 21 37721177</p>
                 </div>
 
                 <div class="col-12 col-xl-4 pb-5 ">
@@ -165,15 +165,11 @@
                 </div>
 
                 <div class="col-12 col-xl-4 ">
-                  <h5><i class="fa-solid fa-location-dot"></i> Location: </h5>
 
-                    <h5>
-                         Japan-6 Chome-27-1 Nishishinjuku, Shinjuku City, Tokyo
-                        167-7723, Japan
-                    </h5>
+                 <span id="country"><b> Japan:</b></span>  6 Chome-27-1 Nishishinjuku, Shinjuku City, Tokyo
+                  167-7723, Japan
 
-                    <h5 class="pt-2"> <i class="fa-solid fa-phone"></i> Phone: +81 3-5326-1976
-                    </h5>
+                   <p class="pt-2"><i class="fa-solid fa-phone"></i> Phone: +81 3-5326-1976</p>
                 </div>
 
                 <div class="col-12 col-xl-4 pb-5">
@@ -185,15 +181,12 @@
                 </div>
 
                 <div class="col-12 col-xl-4">
-                  <h5><i class="fa-solid fa-location-dot"></i> Location: </h5>
+                 
 
-                    <h5>
-                        Punjab- 11TH FLOOR, OFFICE NO.1172, India Trade Tower
-                        Omaxe, New Chandigarh, Punjab 177971
-                    </h5>
-
-                    <h5><i class="fa-solid fa-phone"></i> Phone: xxxxxxxxxxxx
-                    </h5>
+                    <span id="country"><b>   Punjab: </b></span>  11TH FLOOR, OFFICE NO.1172, India Trade Tower
+                    Omaxe, New Chandigarh, Punjab 177971
+                  <p class="pt-2"><i class="fa-solid fa-phone"></i> Phone: xxxxxxxxxxxx</p>
+                  
                 </div>
 
                 <div class="col-12 col-xl-4 pb-5">
@@ -209,14 +202,10 @@
 
 
                 <div class="col-12 col-xl-4">
-                  <h5><i class="fa-solid fa-location-dot"></i> Location: </h5>
-                    <h5>
-                         Kolkata-771, Pano Rd, Nitai Nagar, Mukundapur, Kolkata,
-                        West Bengal 777799
-                    </h5>
+                    <span id="country"><b>  Kolkata: </b></span> 771, Pano Rd, Nitai Nagar, Mukundapur, Kolkata,
+                    West Bengal 777799
 
-                    <h5 class="pt-2"><i class="fa-solid fa-phone"></i> Phone: xxxxxxxxxxxx
-                    </h5>
+                    <p><i class="fa-solid fa-phone"></i> Phone: xxxxxxxxxxxx</p>
                 </div>
 
                 <div class="col-12 col-xl-4 pb-5">
@@ -261,7 +250,7 @@
               <h4>
                 SIGN UP TO OUR NEWSLETTER
               </h4>
-              <form action="">
+              <form action="" onsubmit="Subscribe()">
                 <input type="text" placeholder="Enter Your Email" />
                 <button type="submit">
                   Subscribe
@@ -351,6 +340,7 @@
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
     </script>
+    <script src="/js/script.js"></script>
     <!-- End Google Map -->
 
 </body>

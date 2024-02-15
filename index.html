@@ -39,6 +39,8 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
     integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="/tab logo.png" type="image/x-icon">
+
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
@@ -582,18 +584,20 @@
         
           <div class="col-12 col-xl-12">
             <div class="form_container">
-              <form action="">
+              <form action="https://api.web3forms.com/submit" method="POST">
                 <div>
-                  <input type="text" placeholder="Your Name" />
+                  <input type="hidden" name="access_key" value="b6afcb76-badc-4b6c-8a28-f20b16f98f3b">
+
                 </div>
                 <div>
-                  <input type="text" placeholder="Phone Number" />
+                  <input type="text" name="name" placeholder="Your Name" />
+                </div>
+                
+                <div>
+                  <input type="email" name="email" placeholder="Email" />
                 </div>
                 <div>
-                  <input type="email" placeholder="Email" />
-                </div>
-                <div>
-                  <input type="text" class="message-box" placeholder="Message" />
+                  <input type="text" name="message" class="message-box" placeholder="Message" />
                 </div>
                 <div class="btn_box">
                   <button>
@@ -641,7 +645,7 @@
             <h4>
               SIGN UP TO OUR NEWSLETTER
             </h4>
-            <form action="">
+            <form action="" onsubmit=" Subscribe()" >
               <input type="text" placeholder="Enter Your Email" />
               <button type="submit">
                 Subscribe
@@ -738,7 +742,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  
+
+    <script>
+      function Subscribe(){
+        alert("Subscribed Successfully")
+      }
+    </script>
+
 
   <script>
     $('.owl-carousel').owlCarousel({
